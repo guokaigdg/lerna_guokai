@@ -1,0 +1,28 @@
+{
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+
+  "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"]
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
+
+  "packages": ["packages/*"],
+
+  "changelog": {
+    "repo": "ayqy/hoho-lerna",
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "doc": "Refine Doc",
+      "feat": "New Feature"
+    },
+    "cacheDir": ".changelog"
+  }
+}
