@@ -1,11 +1,10 @@
 {
-  "name": "root",
+  "name": "guokaigdg",
   "private": true,
   "devDependencies": {
     "lerna": "^3.20.2"
   },
   "workspaces": [
-    "packages/*",
-    "packages/@gp0320/*"
+    "packages/*"
   ]
 }
