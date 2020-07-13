@@ -45,7 +45,7 @@
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "source-map-explorer": "^2.4.1",
-    "standard-version": "^7.0.1",
+    "standard-version": "^8.0.1",
     "styled-components": "^4.4.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
